@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.accList {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가운데 정렬 */
+  justify-content: center; /* 세로 가운데 정렬 */
+  height: 100vh; /* 뷰포트의 높이를 100%로 설정 */
+	
+}
+
+.btn1 {
+	     display: flex;
+        justify-content: space-between;
+        align-items: center;
+	text-align: left;
+	padding-left: 30px;
+	margin : 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 500px;
+	height: 70px;
+	background-color: white;
+	border-color: #0080FF;
+}
+
+.btn1:hover {
+    /* 버튼에 마우스 호버 시 스타일 설정 */
+    background-color: #2980b9;
+    color:white;
+}
+
+.balance-margin {
+    margin-left: 50px; /* 여백 크기를 조절하세요 */
+}
